@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLayer", "DataLayer\Data
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceLayer", "ServiceLayer\ServiceLayer.csproj", "{7475A06E-18AA-479C-A357-D0B0FD20961B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestLayer", "UnitTestLayer\UnitTestLayer.csproj", "{EE166831-C3CF-4411-9DAC-691D70D13154}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{47BFC23C-7A2B-4F47-96C1-95A522CA4CE1}"
 EndProject
 Global
@@ -31,10 +29,6 @@ Global
 		{7475A06E-18AA-479C-A357-D0B0FD20961B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7475A06E-18AA-479C-A357-D0B0FD20961B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7475A06E-18AA-479C-A357-D0B0FD20961B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EE166831-C3CF-4411-9DAC-691D70D13154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE166831-C3CF-4411-9DAC-691D70D13154}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE166831-C3CF-4411-9DAC-691D70D13154}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE166831-C3CF-4411-9DAC-691D70D13154}.Release|Any CPU.Build.0 = Release|Any CPU
 		{47BFC23C-7A2B-4F47-96C1-95A522CA4CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{47BFC23C-7A2B-4F47-96C1-95A522CA4CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47BFC23C-7A2B-4F47-96C1-95A522CA4CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU

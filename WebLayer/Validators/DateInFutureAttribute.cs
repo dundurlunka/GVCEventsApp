@@ -14,7 +14,7 @@ namespace WebLayer.Validators
             {
                 return new ValidationResult("Invalid date format");
             }
-            else if (date < DateTime.Now)
+            else if (date < DateTime.UtcNow)
             {
                 return new ValidationResult("StartDate must be in the future.");
             }

@@ -28,12 +28,14 @@ namespace ServiceLayer
 
         public async Task CreateEventAsync(Event eventToCreate)
         {
+            eventToCreate.StartDate = eventToCreate.StartDate.AddHours(2);
             await this._context.Events.AddAsync(eventToCreate);
             await this._context.SaveChangesAsync();
         }
 
         public async Task UpdateEventAsync(Event eventToUpdate)
         {
+            eventToUpdate.StartDate = eventToUpdate.StartDate.AddHours(2);
             this._context.Events.Update(eventToUpdate);
             await this._context.SaveChangesAsync();
         }

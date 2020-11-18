@@ -6,7 +6,6 @@ namespace WebLayer.Viewmodels
 {
     public class EventFormModel
     {
-        [Required]
         public string Name { get; set; }
 
         [Range(1, Double.MaxValue)]
